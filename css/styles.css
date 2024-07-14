@@ -1,0 +1,221 @@
+/* Estilos generales */
+body {
+    background-color: #caffff;
+    background-image: linear-gradient(0deg, #caffff 0%, #e2ffff 100%);
+    
+
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+    
+}
+header {
+    background-color: rgb(17, 17, 31);
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+main {
+    padding: 20px 0;
+}
+section {
+    padding: 40px 0;
+}
+h2 {
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+.blog-post {
+    margin-bottom: 40px;
+}
+.meta {
+    color: #555252;
+    font-size: 0.9em;
+    margin-bottom: 10px;
+}
+.button {
+    display: inline-flex;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 18px;
+    text-decoration: none;
+    border-radius: 4px;
+    position: relative;
+}
+.button i {
+    font-size: 1.6em;
+    margin-right: 18px;
+}
+.button:hover {
+    background-color: #555;
+}
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #a19d9d;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+.textarea-button-container {
+    display: flex;
+    align-items: flex-start;
+}
+textarea {
+    flex: 1;
+    margin-right: 10px;
+}
+.button-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+button[type="submit"] {
+    background-color: #313131;
+    color: #fff;
+    padding: 18px 20px ;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    flex-shrink: 0;
+    margin-left: 10px;
+}
+button[type="submit"]:hover {
+    background-color: #555;
+}
+footer {
+    background-color: rgb(17, 17, 31);
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.color1 {
+    color: #0cb7ce;
+    text-decoration: none;
+    font-size: 18px;
+    
+}
+.color1:hover {
+    color: #6ee9ff;
+}
+.colorv:active {
+    color: #0cb7ce; 
+}
+.colorv:visited {
+    color: #023b44;
+}
+.social-icons {
+    text-align: center;
+    margin-bottom: 20px;
+    min-width: 100px;
+    display: flex;
+    justify-content: center;
+    
+}
+.social-icons a {
+    color: #fff;
+    font-size: 24px;
+    margin: 0 10px;
+    text-decoration: none;
+    transition: color 0.1s ease;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    background-color: #4d197e;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgb(0, 0, 0, 0.5);
+    transition: all .1s ease-in-out;
+
+}
+.social-icons a:hover {
+    color: #0cb7ce;
+    transform: scale(1.2);
+}
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2em;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+        text-align: center;
+    }
+
+    .button {
+        padding: 10px 12px;
+    }
+
+    .button i {
+        font-size: 1.4em;
+    }
+
+    form {
+        padding: 0 20px;
+    }
+}
+.post-content{
+    display: flex;
+    align-items: center;
+}
+.post-content img {
+    margin-right: 20px;
+}
+.centrar1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+#Inicio .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#Inicio .intro {
+    max-width: 600px;
+    text-align: center;
+}
+
+#Inicio .intro h2, #Inicio .intro p {
+    margin: 0 0 20px;
+}
+
+#Inicio img {
+    margin-top: 20px;
+}
+#Inicio .intro img {
+    border-radius: 100%;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
